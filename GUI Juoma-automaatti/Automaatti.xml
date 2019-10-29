@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="1.8.0_221" class="java.beans.XMLDecoder">
+ <object class="JuomaAutomaatti">
+  <void property="kaakao">
+   <int>260</int>
+  </void>
+  <void property="kahvi">
+   <int>0</int>
+  </void>
+  <void property="tee">
+   <int>60</int>
+  </void>
+ </object>
+</java>
