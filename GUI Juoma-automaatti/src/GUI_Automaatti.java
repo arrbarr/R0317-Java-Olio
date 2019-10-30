@@ -29,8 +29,6 @@ public class GUI_Automaatti extends JFrame {
 	// sisältä
 
 	JPanel contentPane;
-	private JMenuItem mntmTallennaAutomaatinTila;
-	private JMenuItem mntmLataaAutomaatti;
 	private JLabel KahviLabel;
 	private JLabel TeeLabel;
 	private JLabel KaakaoLabel;
@@ -229,8 +227,7 @@ public class GUI_Automaatti extends JFrame {
 			}
 		});
 		kahviNappi.setBounds(10, 40, 110, 110);
-		kahviNappi.setIcon(new ImageIcon(
-				"C:\\Users\\Arttu\\eclipse-workspace\\KT3-Juoma Automaatti-GUI-pohja-opiskelijat\\img\\coffee.jpg"));
+		kahviNappi.setIcon(new ImageIcon(GUI_Automaatti.class.getResource("/images/coffee.jpg")));
 		kahvi.add(kahviNappi);
 
 		JLabel kahviNappiLabel = new JLabel("Kahvi");
@@ -261,8 +258,7 @@ public class GUI_Automaatti extends JFrame {
 			}
 		});
 		teeNappi.setBounds(10, 40, 110, 110);
-		teeNappi.setIcon(new ImageIcon(
-				"C:\\Users\\Arttu\\eclipse-workspace\\KT3-Juoma Automaatti-GUI-pohja-opiskelijat\\img\\tea.jpg"));
+		teeNappi.setIcon(new ImageIcon(GUI_Automaatti.class.getResource("/images/tea.jpg")));
 		tee.add(teeNappi);
 
 		JLabel teeNappiLabel = new JLabel("Tee");
@@ -292,8 +288,7 @@ public class GUI_Automaatti extends JFrame {
 				}
 			}
 		});
-		kaakaoNappi.setIcon(new ImageIcon(
-				"C:\\Users\\Arttu\\eclipse-workspace\\KT3-Juoma Automaatti-GUI-pohja-opiskelijat\\img\\cocoa.jpg"));
+		kaakaoNappi.setIcon(new ImageIcon(GUI_Automaatti.class.getResource("/images/cocoa.jpg")));
 		kaakaoNappi.setBounds(10, 40, 110, 110);
 		kaakao.add(kaakaoNappi);
 
